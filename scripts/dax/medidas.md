@@ -4,7 +4,7 @@
 -- =========================================================
 
 -- =========================================================
--- BASE
+-- 🔹 BASE
 -- Referência: docs/04_pipeline_dados.md | Seção 4
 -- =========================================================
 
@@ -33,7 +33,7 @@ SWITCH(
 )
 
 -- =========================================================
--- KPIs PRINCIPAIS
+-- 🔹 KPIs PRINCIPAIS
 -- Referência: docs/06_kpis.md | Seção 6.1
 -- =========================================================
 
@@ -59,7 +59,7 @@ R$ | Lucro Liquido =
 CALCULATE([R$ | DRE], dPlanoConta[CodDRE] = "3.11")
 
 -- =========================================================
--- ANÁLISES (AH / AV)
+-- 🔹 ANÁLISES (AH / AV)
 -- Referência: docs/07_analises.md
 -- =========================================================
 
@@ -80,7 +80,7 @@ RETURN
 DIVIDE([R$ | DRE], ResultadoFixo)
 
 -- =========================================================
--- AUXILIARES
+-- 🔹 AUXILIARES
 -- Referência: docs/07_analises.md
 -- =========================================================
 
@@ -98,7 +98,7 @@ AUX | Texto Título Rótulo =
 "vs ano anterior"
 
 -- =========================================================
--- YOY (VALOR)
+-- 🔹 YOY (VALOR)
 -- Referência: docs/07_analises.md
 -- =========================================================
 
@@ -135,7 +135,7 @@ IF(
 )
 
 -- =========================================================
--- YOY (%)
+-- 🔹 YOY (%)
 -- =========================================================
 
 % Δ | Receita Bruta YoY =
@@ -151,7 +151,7 @@ DIVIDE([R$ | EBITDA YoY], CALCULATE([R$ | EBITDA], PREVIOUSYEAR(dCalendario[Data
 DIVIDE([R$ | Lucro Liquido YoY], CALCULATE([R$ | Lucro Liquido], PREVIOUSYEAR(dCalendario[Data])))
 
 -- =========================================================
--- SIMULAÇÕES (WHAT-IF)
+-- 🔹 SIMULAÇÕES (WHAT-IF)
 -- Referência: docs/08_simulacoes.md
 -- =========================================================
 
@@ -171,7 +171,7 @@ SIM | EBIT WIF =
 [SIM | Margem WIF] + [SIM | Despesa WIF]
 
 -- =========================================================
--- IMPACTO DAS SIMULAÇÕES
+-- 🔹 IMPACTO DAS SIMULAÇÕES
 -- =========================================================
 
 Δ | Impacto Receita =
