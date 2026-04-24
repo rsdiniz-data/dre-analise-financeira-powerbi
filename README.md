@@ -73,8 +73,8 @@ Análises What-If permitem avaliar impactos no resultado com base em variações
 
 ## 📸 Dashboard
 
-![Dashboard](images/dashboard_1.png)
-![Dashboard](images/dashboard_2.png)
+![Dashboard](images/Dashboard_1_DRE.png)
+![Dashboard](images/Dashboard_2_Simulador.png)
 
 ---
 
