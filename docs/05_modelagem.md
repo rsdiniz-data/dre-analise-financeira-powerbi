@@ -8,3 +8,10 @@
 
 - Exclusão de contas sintéticas
 - Foco em contas analíticas
+
+## 5.1 Implementação
+
+As transformações descritas foram implementadas via Power Query.
+
+Scripts relacionados:
+- /scripts/powerquery/transformacoes.md
