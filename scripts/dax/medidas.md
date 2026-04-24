@@ -1,3 +1,4 @@
+```sql
 -- =========================================================
 -- PROJETO: DRE Automatizada
 -- ARQUIVO: medidas.md
@@ -188,3 +189,4 @@ SIM | EBIT WIF =
 
 Δ | Impacto EBIT =
 [SIM | EBIT WIF] - [R$ | EBIT]
+```
