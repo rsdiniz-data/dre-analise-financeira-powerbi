@@ -46,7 +46,13 @@ Os scripts utilizados no projeto estão organizados nas seguintes pastas:
 * `/scripts/powerquery` → Transformações de dados
 * `/scripts/dax` → Métricas e indicadores
 
-Os códigos possuem comentários referenciando as etapas da documentação, garantindo rastreabilidade completa da solução.
+A solução foi documentada de forma a permitir rastreabilidade completa entre:
+
+- Documentação técnica (/docs)
+- Scripts (/scripts)
+- Implementação no Power BI
+
+Cada script contém referências diretas às seções da documentação, facilitando a validação técnica da solução.
 
 ---
 
