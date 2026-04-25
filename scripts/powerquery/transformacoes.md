@@ -11,7 +11,7 @@
 // =========================================================
 
 CaminhoPasta =
-"D:\OneDrive - datafive.com.br\Projetos de BI\DRE Embraer"
+"D:\Projetos de BI\DRE Embraer"
 meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
 
 
