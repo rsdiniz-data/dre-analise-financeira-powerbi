@@ -1,16 +1,24 @@
-# DAX Measures
+# 📊 Scripts DAX
 
-Este diretório contém as medidas utilizadas na construção da DRE no Power BI.
+Este diretório contém todas as medidas DAX utilizadas no projeto de DRE automatizada.
 
-## Conteúdo
+## Estrutura
 
-- medidas.md → KPIs, análises (AH/AV), YoY e simulações
+- 🔹 [BASE](./base.md)
+- 🔹 [KPIs PRINCIPAIS](./kpis.md)
+- 🔹 [ANÁLISES (AH / AV)](./analises.md)
+- 🔹 [YOY (VALOR)](./yoy_valor.md)
+- 🔹 [YOY (%)](./yoy_percentual.md)
+- 🔹 [SIMULAÇÕES](./simulacoes.md)
+- 🔹 [AUXILIARES](./auxiliares.md)
 
-## Referências
+## Rastreabilidade
 
-- docs/06_kpis.md
-- docs/07_analises.md
-- docs/08_simulacoes.md
+Cada medida contém referência direta à documentação em `/docs`, garantindo rastreabilidade completa entre:
+
+- Regra de negócio  
+- Modelagem de dados  
+- Implementação técnica  
 
 ## Observação
 
@@ -20,7 +28,3 @@ As medidas seguem padronização de nomenclatura:
 - % Δ → variações percentuais
 - AUX → medidas auxiliares
 - SIM → simulações (What-If)
-
-## Rastreabilidade
-
-Cada script contém referências diretas às seções da documentação em /docs.
