@@ -1,13 +1,6 @@
-```sql
--- =========================================================
--- PROJETO: DRE Automatizada
--- ARQUIVO: yoy_percentual.md
--- =========================================================
+# 📄 `/scripts/dax/yoy_percentual.md`
 
--- =========================================================
--- 🔹 YOY (%)
--- Referência: docs/07_analises.md
--- =========================================================
+**Referência:** docs/07_analises.md
 
 % Δ | Receita Bruta YoY =
 DIVIDE([R$ | Receita Bruta YoY], CALCULATE([R$ | Receita Bruta], PREVIOUSYEAR(dCalendario[Data])))
