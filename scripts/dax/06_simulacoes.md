@@ -1,4 +1,4 @@
-# 🔹SIMULAÇÕES (WHAT-IF)
+# 🔹Simulações (What-If)
 
 **Referência:** docs/08_simulacoes.md | Seção 8.4
 
@@ -18,7 +18,7 @@ SIM | Margem WIF =
 SIM | EBIT WIF =
 [SIM | Margem WIF] + [SIM | Despesa WIF]
 ```
-# 🔹IMPACTO DAS SIMULAÇÕES
+# 🔹Impacto das Simulações
 
 **Referência:** docs/08_simulacoes.md | Seção 8.4
 
