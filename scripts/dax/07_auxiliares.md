@@ -1,4 +1,4 @@
-# 🔹AUXILIARES
+# 🔹Auxiliares
 
 **Referência:** docs/07_analises.md
 
@@ -17,7 +17,7 @@ AUX | Texto Título Rótulo =
 "vs ano anterior"
 ```
 
-# 🔹AUXILIARES (YoY)
+# 🔹Auxiliares (YoY)
 
 **Referência:** docs/07_analises.md | Seção 7.3
 
