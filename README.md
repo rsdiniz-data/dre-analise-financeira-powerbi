@@ -1,3 +1,76 @@
+# 📊 DRE Automatizada | Data Analytics & Engineering
+
+## 🚀 Visão Geral
+
+Transformei um processo manual de análise financeira (baseado em PDFs e Excel) em uma solução analítica automatizada, com pipeline estruturado, modelo dimensional e dashboard interativo em Power BI.
+
+---
+
+## ⚠️ Problema de Negócio
+
+- Dados financeiros em formatos não estruturados  
+- Alto esforço manual e risco de erros  
+- Baixa padronização  
+- Dificuldade de análise histórica e comparativa  
+
+---
+
+## ✅ Solução
+
+Desenvolvimento de uma solução completa de dados, envolvendo:
+
+- Pipeline de ingestão e transformação (Power Query)  
+- Modelagem dimensional (Star Schema)  
+- Construção de métricas financeiras em DAX  
+- Dashboard interativo para análise e tomada de decisão  
+
+---
+
+## 🧠 Stack Utilizada
+
+- Power BI  
+- Power Query (M)  
+- DAX  
+- Modelagem Dimensional  
+
+---
+
+## 📊 Entregas
+
+- KPIs financeiros: Receita, Custos, EBITDA, Lucro Líquido  
+- Análises: YoY, AH (Horizontal) e AV (Vertical)  
+- Simulações de cenário (What-If)  
+- Dashboard interativo  
+
+🔗 [Acessar Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOTcwN2E4OTMtNGUxMS00MDBjLTg3MjMtNzQzOWM0OWE0Y2I0IiwidCI6IjE2YjQyY2M1LTJiZWUtNDRjZS05MWE4LWYyMjgwMGRkZmZmYyJ9)
+
+---
+
+## 💼 Valor Gerado
+
+- Redução de esforço manual na consolidação de dados  
+- Aumento da confiabilidade das informações  
+- Base estruturada para análises escaláveis  
+- Suporte direto à tomada de decisão  
+
+---
+
+## 🔗 Explorar Projeto
+
+- 📄 [Documentação técnica](./docs/README.md)  
+- 💻 [Scripts (DAX & Power Query)](./scripts/README.md)  
+- 📢 [Artigo no LinkedIn](https://www.linkedin.com/pulse/dre-automatizada-em-power-bi-do-operacional-ao-ricardo-diniz-mpjjf/)
+
+---
+
+## 🎯 Destaque
+
+Este projeto demonstra a integração entre Data Analytics e Engenharia de Dados na construção de soluções orientadas ao negócio.
+
+
+
+---
+
 # 📊 DRE Automatizada – Análise Financeira
 
 ## 🧠 Sobre o Projeto
