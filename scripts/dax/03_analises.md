@@ -1,6 +1,6 @@
 # 🔹 ANÁLISES (AH / AV)
 
-**Referência:** docs/07_analises.md
+**Referência:** docs/07_analises.md | Seção 7.1 e 7.2
 
 ```dax
 % Δ | AH DRE =
