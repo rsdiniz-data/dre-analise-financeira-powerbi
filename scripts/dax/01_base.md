@@ -1,6 +1,5 @@
 # 🔹 BASE
 
-## R$ | Total Resultado
 **Referência:** docs/04_pipeline_dados.md
 
 ```dax
