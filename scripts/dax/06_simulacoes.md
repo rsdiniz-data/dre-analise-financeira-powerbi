@@ -17,12 +17,12 @@ SIM | Margem WIF =
 
 SIM | EBIT WIF =
 [SIM | Margem WIF] + [SIM | Despesa WIF]
+```
+# 🔹IMPACTO DAS SIMULAÇÕES
 
--- =========================================================
--- 🔹 IMPACTO DAS SIMULAÇÕES
--- Referência: docs/08_simulacoes.md
--- =========================================================
+**Referência:** docs/08_simulacoes.md
 
+```dax
 Δ | Impacto Receita =
 [SIM | Receita WIF] - [R$ | Receita Bruta]
 
