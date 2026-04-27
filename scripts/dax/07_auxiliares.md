@@ -1,14 +1,8 @@
-```sql
--- =========================================================
--- PROJETO: DRE Automatizada
--- ARQUIVO: auxiliares.md
--- =========================================================
+# 🔹AUXILIARES
 
--- =========================================================
--- 🔹 AUXILIARES
--- Referência: docs/07_analises.md
--- =========================================================
+**Referência:** docs/07_analises.md
 
+```dax
 AUX | Direção Indicador =
 VAR vTipo = SELECTEDVALUE(dPlanoConta[TipoIndicador])
 RETURN [% Δ | AH DRE] * vTipo
@@ -21,12 +15,13 @@ CONCATENATEX(vAnoSelecionado, dCalendario[Ano], ", ")
 
 AUX | Texto Título Rótulo =
 "vs ano anterior"
+```
 
--- =========================================================
--- 🔹 AUXILIARES (YoY)
--- Referência: docs/07_analises.md
--- =========================================================
+# 🔹AUXILIARES (YoY)
 
+**Referência:** docs/07_analises.md
+
+```dax
 AUX | % R$ Δ | Custos YoY =
 VAR vYoY = [R$ | Custos YoY]
 VAR vNum = [AUX | R$ | Custos YoY]
