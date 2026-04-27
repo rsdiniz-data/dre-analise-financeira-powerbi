@@ -1,14 +1,8 @@
-```sql
--- =========================================================
--- PROJETO: DRE Automatizada
--- ARQUIVO: analises.md
--- =========================================================
+# 🔹 ANÁLISES (AH / AV)
 
--- =========================================================
--- 🔹 ANÁLISES (AH / AV)
--- Referência: docs/07_analises.md
--- =========================================================
+**Referência:** docs/07_analises.md
 
+```dax
 % Δ | AH DRE =
 VAR vTipo = SELECTEDVALUE(dPlanoConta[TipoIndicador])
 VAR vPY = CALCULATE([R$ | DRE], SAMEPERIODLASTYEAR(dCalendario[Data]))
