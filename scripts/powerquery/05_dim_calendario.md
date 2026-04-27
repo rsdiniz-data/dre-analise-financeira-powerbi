@@ -47,6 +47,7 @@ let
         )
 in
     CalendarTable
+```
 ```md
 ## 🧠 Observações
 
