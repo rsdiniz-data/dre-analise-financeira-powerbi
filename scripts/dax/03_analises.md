@@ -1,4 +1,4 @@
-# 🔹 ANÁLISES (AH / AV)
+# 🔹 Análises (AH / AV)
 
 **Referência:** docs/07_analises.md | Seção 7.1 e 7.2
 
