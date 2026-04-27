@@ -1,4 +1,4 @@
-# 🔹 YOY (VALOR)
+# 🔹 YoY (Valor)
 
 **Referência:** docs/07_analises.md | Seção 7.3
 
