@@ -26,7 +26,6 @@ AUX | Texto Título Rótulo =
 -- 🔹 AUXILIARES (YoY)
 -- Referência: docs/07_analises.md
 -- =========================================================
-
 "AUX | % R$ Δ | Custos YoY =
 VAR vYoY = [R$ | Custos YoY]
 VAR vNum = [AUX | R$ | Custos YoY]
