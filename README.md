@@ -61,14 +61,12 @@ Modelo dimensional (Star Schema):
 
 Os scripts utilizados no projeto estão organizados nas seguintes pastas:
 
-* `/scripts/powerquery` → Transformações de dados
-* `/scripts/dax` → Métricas e indicadores
 * [/scripts/powerquery](./scripts/powerquery/README.md) → Transformações de dados
 * [/scripts/dax](./scripts/dax/README.md) → Métricas e indicadores
 
 A solução foi documentada de forma a permitir rastreabilidade completa entre:
 
-- Documentação técnica (/docs)
+- Documentação técnica ([/docs](./docs))
 - Scripts (/scripts)
 - Implementação no Power BI
 
