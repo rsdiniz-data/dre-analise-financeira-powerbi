@@ -80,6 +80,6 @@ in
 ```
 ## 🧠 Observações
 
-Conversão para formato analítico (unpivot)
-Integração com dimensão (join)
-Filtragem de dados relevantes
+- Conversão para formato analítico (unpivot)
+- Integração com dimensão (join)
+- Filtragem de dados relevantes
