@@ -1,6 +1,6 @@
 # 🔹 Dimensão: Plano de Contas
 
-📄 Referência: docs/05_modelagem.md | Seção 5.1 e 5.2
+📄 Referência: docs/05_modelagem.md
 
 ## 🎯 Objetivo
 
