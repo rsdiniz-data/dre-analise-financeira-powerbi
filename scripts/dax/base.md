@@ -1,3 +1,4 @@
+```sql
 -- =========================================================
 -- PROJETO: DRE Automatizada
 -- ARQUIVO: base.md
@@ -10,3 +11,4 @@
 
 R$ | Total Resultado =
 SUM(ftResultado[Valor])
+```
