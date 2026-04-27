@@ -18,11 +18,19 @@ Scripts relacionados:
 
 ## 6.3 Exemplo de Implementação
 
-Abaixo um exemplo de cálculo da Receita Bruta:
+A Receita Bruta é calculada a partir da soma dos valores financeiros classificados como receita no plano de contas.
 
-- Baseado na classificação contábil da DRE
-- Filtrando contas de receita operacional
+Essa classificação é feita através do campo `CodDRE`, onde:
 
-Ver implementação completa em:
-`/scripts/dax/medidas.md`
-`[/scripts/dax/medidas.md](/scripts/dax/medidas.md)
+- "3.01" representa contas de Receita
+
+Dessa forma, o cálculo consiste em:
+
+- Filtrar apenas contas com `CodDRE = "3.01"`
+- Somar os valores correspondentes na tabela fato
+
+A implementação pode ser vista em:
+
+- [Ver medidas DAX](../scripts/dax/medidas.md)
+
+[/scripts/dax/medidas.md](/scripts/dax/medidas.md)
