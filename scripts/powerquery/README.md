@@ -4,20 +4,11 @@ Este diretório contém os scripts responsáveis pela ingestão, transformação
 
 ## 📂 Estrutura
 
-- 📌 Parâmetros  
-  👉 [01_parametros.md](./01_parametros.md)
-
-- 📄 Extração de dados (PDF)  
-  👉 [02_extracao_pdf.md](./02_extracao_pdf.md)
-
-- 📊 Dimensão Plano de Contas  
-  👉 [03_dim_plano_conta.md](./03_dim_plano_conta.md)
-
-- 🧾 Tabela Fato (Resultado)  
-  👉 [04_ft_resultado.md](./04_ft_resultado.md)
-
-- 📅 Dimensão Calendário  
-  👉 [05_dim_calendario.md](./05_dim_calendario.md)
+- [Parâmetros](./01_parametros.md)
+- [Extração de dados (PDF)](./02_extracao_pdf.md)
+- [Dimensão Plano de Contas](./03_dim_plano_conta.md)
+- [Tabela Fato (Resultado)](./04_ft_resultado.md)
+- [Dimensão Calendário](./05_dim_calendario.md)
 
 ---
 
