@@ -29,4 +29,23 @@ CALCULATE([R$ | DRE], dPlanoConta[ID Conta] = "3.07")
 
 R$ | Lucro Liquido =
 CALCULATE([R$ | DRE], dPlanoConta[CodDRE] = "3.11")
+
+R$ | DRE =
+VAR vEscopo = SELECTEDVALUE(dPlanoConta[CodDRE])
+VAR vResultado =
+CALCULATE(
+    [R$ | Total Resultado],
+    FILTER(
+        ALL(dPlanoConta),
+        dPlanoConta[ID Conta] < vEscopo
+    )
+)
+RETURN
+SWITCH(
+    TRUE(),
+    ISINSCOPE(dPlanoConta[N2]) && SELECTEDVALUE(dPlanoConta[N2]) = BLANK(), BLANK(),
+    SELECTEDVALUE(dPlanoConta[Lançamento]) = 1 || SELECTEDVALUE(dPlanoConta[Calculado]) = 0, [R$ | Total Resultado],
+    SELECTEDVALUE(dPlanoConta[Calculado]) = 1 && NOT(ISINSCOPE(dPlanoConta[N2])) && NOT(ISINSCOPE(dPlanoConta[N3])), vResultado,
+    BLANK()
+)
 ```
