@@ -25,4 +25,4 @@ Abaixo um exemplo de cálculo da Receita Bruta:
 
 Ver implementação completa em:
 `/scripts/dax/medidas.md`
-[/scripts/dax/medidas.md](/scripts/dax/medidas.md)
+`[/scripts/dax/medidas.md](/scripts/dax/medidas.md)
