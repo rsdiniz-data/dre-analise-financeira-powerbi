@@ -2,7 +2,6 @@
 
 **Referência:** docs/06_kpis.md | Seção 6.1
 
-## R$ | Receita Bruta
 ```dax
 R$ | Receita Bruta =
 CALCULATE([R$ | Total Resultado], dPlanoConta[CodDRE] = "3.01")
