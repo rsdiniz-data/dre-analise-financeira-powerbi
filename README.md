@@ -13,13 +13,13 @@ Com o uso de Power Query, modelagem dimensional e DAX, foram construídos indica
 ## 🔗 Navegação
 
 - 📊 Dashboard (Power BI)  
-https://app.powerbi.com/view?r=eyJrIjoiOTcwN2E4OTMtNGUxMS00MDBjLTg3MjMtNzQzOWM0OWE0Y2I0IiwidCI6IjE2YjQyY2M1LTJiZWUtNDRjZS05MWE4LWYyMjgwMGRkZmZmYyJ9
+[Acessar Dashboard Interativo (Power BI)](https://app.powerbi.com/view?r=eyJrIjoiOTcwN2E4OTMtNGUxMS00MDBjLTg3MjMtNzQzOWM0OWE0Y2I0IiwidCI6IjE2YjQyY2M1LTJiZWUtNDRjZS05MWE4LWYyMjgwMGRkZmZmYyJ9)
 
 - 📄 Documentação técnica  
-[Ver documentação](./docs/README.md)
+[Entender o contexto](./docs/README.md)
 
 - 💻 Scripts  
-[Ver scripts](./scripts/README.md)
+[Explorar os scripts](./scripts/README.md)
 
 ---
 
@@ -27,7 +27,7 @@ https://app.powerbi.com/view?r=eyJrIjoiOTcwN2E4OTMtNGUxMS00MDBjLTg3MjMtNzQzOWM0O
 
 Este projeto também foi apresentado com foco em contexto de negócio e geração de valor:
 
-https://www.linkedin.com/pulse/dre-automatizada-em-power-bi-do-operacional-ao-ricardo-diniz-mpjjf/
+[Explorar o projeto com contexto de negócio (LinkedIn)](https://www.linkedin.com/pulse/dre-automatizada-em-power-bi-do-operacional-ao-ricardo-diniz-mpjjf/)
 
 ## 🎯 Valor para o Negócio
 
