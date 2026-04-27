@@ -104,3 +104,9 @@ let
         Table.RemoveColumns(AddTipoIndicador, {"Comprimento"})
 in
     RemoveComprimento
+```
+## 🧠 Observações
+
+- Construção de hierarquia (N1, N2, N3)
+- Classificação de indicadores (receita vs custo/despesa)
+- Base para cálculo de KPIs
