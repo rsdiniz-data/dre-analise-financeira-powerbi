@@ -1,27 +1,40 @@
-# Power Query (ETL)
+# ⚙️ Power Query (M Language)
 
-Este diretório contém os scripts responsáveis pelo processo de ingestão, transformação e carga dos dados.
+Este diretório contém os scripts responsáveis pela ingestão, transformação e estruturação dos dados no Power BI.
 
-## Estrutura
+## 📂 Estrutura
 
-- transformacoes.md → pipeline completo de dados
+- 📌 Parâmetros  
+  👉 [01_parametros.md](./01_parametros.md)
 
-## Etapas
+- 📄 Extração de dados (PDF)  
+  👉 [02_extracao_pdf.md](./02_extracao_pdf.md)
 
-1. Extração de dados de arquivos PDF
-2. Transformação e limpeza
-3. Construção da tabela fato (ftResultado)
-4. Criação das dimensões (dPlanoConta, dCalendario)
+- 📊 Dimensão Plano de Contas  
+  👉 [03_dim_plano_conta.md](./03_dim_plano_conta.md)
 
-## Referências
+- 🧾 Tabela Fato (Resultado)  
+  👉 [04_ft_resultado.md](./04_ft_resultado.md)
 
-- docs/04_pipeline_dados.md
-- docs/05_modelagem.md
+- 📅 Dimensão Calendário  
+  👉 [05_dim_calendario.md](./05_dim_calendario.md)
 
-## Observação
+---
 
-O processo segue abordagem de ETL dentro do Power BI, com foco em preparação para modelagem dimensional.
+## 🔗 Rastreabilidade
 
-## Rastreabilidade
+Cada script possui referência direta à documentação em `/docs`, permitindo navegação entre:
 
-Cada script contém referências diretas às seções da documentação em /docs.
+- Regras de negócio
+- Modelagem
+- Pipeline de dados
+
+---
+
+## 🧠 Abordagem Técnica
+
+A estrutura segue boas práticas de engenharia de dados:
+
+- Separação por responsabilidade (extração, transformação, modelagem)
+- Preparação para modelo dimensional (Star Schema)
+- Organização compatível com pipelines (Data Engineering mindset)
