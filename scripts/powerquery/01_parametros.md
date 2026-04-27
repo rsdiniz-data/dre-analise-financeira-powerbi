@@ -1,6 +1,6 @@
 # 🔹 Parâmetros
 
-📄 Referência: docs/04_pipeline_dados.md | Seção 4.1
+📄 Referência: docs/04_pipeline_dados.md
 
 ## 🎯 Objetivo
 
