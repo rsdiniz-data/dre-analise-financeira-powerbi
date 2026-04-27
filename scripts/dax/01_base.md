@@ -1,4 +1,4 @@
-# 🔹 BASE
+# 🔹 Base
 
 **Referência:** docs/04_pipeline_dados.md
 
