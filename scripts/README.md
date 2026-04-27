@@ -1,30 +1,33 @@
-# Scripts do Projeto
+# 💻 Scripts do Projeto
 
-Este diretório contém toda a implementação técnica do projeto, organizada por camada de responsabilidade.
-
-## Estrutura
-
-### 📊 /dax
-Contém as medidas utilizadas no Power BI:
-
-- KPIs financeiros (Receita, Custos, EBITDA, Lucro)
-- Análises (AH, AV, YoY)
-- Simulações de cenário (What-If)
-- Medidas auxiliares
-
-📄 Ver detalhes: [Explorar documentação DAX](./dax/README.md)
+Este diretório contém toda a implementação técnica da solução, organizada por camada de responsabilidade — desde a ingestão e transformação dos dados até a construção das métricas analíticas.
 
 ---
 
+## 📂 Estrutura
+
 ### ⚙️ /powerquery
-Contém o pipeline de dados (ETL):
+Responsável pelo pipeline de dados (ETL):
 
-- Extração de dados de PDFs
-- Transformações e limpeza
-- Construção da tabela fato
-- Criação das dimensões
+- Ingestão de dados a partir de PDFs e Excel  
+- Extração e estruturação das informações  
+- Limpeza e padronização dos dados  
+- Construção da tabela fato (`ftResultado`)  
+- Criação das dimensões (`dPlanoConta`, `dCalendario`)  
 
-📄 Ver detalhes: [Explorar documentação Power Query](./powerquery/README.md)
+📄 [Explorar documentação Power Query](./powerquery/README.md)
+
+---
+
+### 📊 /dax
+Responsável pela camada analítica do modelo:
+
+- KPIs financeiros (Receita, Custos, EBITDA, Lucro Líquido)  
+- Análises (AH, AV, YoY)  
+- Simulações de cenário (What-If)  
+- Medidas auxiliares para suporte à visualização  
+
+📄 [Explorar documentação DAX](./dax/README.md)
 
 ---
 
@@ -32,18 +35,18 @@ Contém o pipeline de dados (ETL):
 
 Os scripts foram desenvolvidos com rastreabilidade completa em relação à documentação do projeto:
 
-- `/docs` → explicação conceitual e de negócio  
-- `/scripts` → implementação técnica  
+- 📄 `/docs` → definição conceitual e regras de negócio  
+- 💻 `/scripts` → implementação técnica  
 
-Cada script contém referências diretas às seções da documentação, facilitando a validação técnica da solução.
+Cada script contém referências diretas às seções da documentação, permitindo navegar facilmente entre conceito e código e facilitando a validação técnica da solução.
 
 ---
 
 ## 🎯 Objetivo
 
-Organizar a lógica do projeto de forma clara, separando:
+Organizar a lógica do projeto de forma modular, separando claramente:
 
-- Camada de transformação (ETL)
-- Camada analítica (DAX)
+- Camada de dados (ingestão e transformação)  
+- Camada analítica (cálculo e métricas)  
 
-Essa separação melhora a manutenção, escalabilidade e entendimento da solução.
+Essa abordagem melhora a legibilidade, manutenção e escalabilidade da solução, além de refletir boas práticas utilizadas em projetos de dados.
