@@ -1,4 +1,4 @@
-# 📄 `/scripts/dax/yoy_percentual.md`
+# 🔹 YOY (%)
 
 **Referência:** docs/07_analises.md
 
