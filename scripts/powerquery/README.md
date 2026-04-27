@@ -21,3 +21,7 @@ Este diretório contém os scripts responsáveis pelo processo de ingestão, tra
 ## Observação
 
 O processo segue abordagem de ETL dentro do Power BI, com foco em preparação para modelagem dimensional.
+
+## Rastreabilidade
+
+Cada script contém referências diretas às seções da documentação em /docs.
