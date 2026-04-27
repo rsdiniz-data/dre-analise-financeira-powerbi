@@ -1,8 +1,3 @@
-
----
-
-# 📁 `02_extracao_pdf.md`
-
 ```md
 # 🔹 Extração de Dados (PDF)
 
