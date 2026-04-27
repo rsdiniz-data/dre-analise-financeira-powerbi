@@ -16,7 +16,6 @@
 
 Scripts relacionados:
 
-- /scripts/powerquery/transformacoes.md
 - [/scripts/powerquery/transformacoes.md](/scripts/powerquery/transformacoes.md)
 
 Esses scripts representam as etapas de ingestão, extração e transformação dos dados.
