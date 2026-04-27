@@ -47,3 +47,9 @@ let
         )
 in
     CalendarTable
+```md
+## 🧠 Observações
+
+- Geração dinâmica baseada na tabela fato
+- Suporte a análises temporais
+- Essencial para cálculos DAX (YoY, AH)
