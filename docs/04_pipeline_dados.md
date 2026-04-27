@@ -22,7 +22,7 @@ O pipeline foi estruturado em etapas bem definidas:
 
 Os scripts foram organizados por responsabilidade, seguindo boas práticas de engenharia de dados.
 
-📄 Ver detalhes: [Explorar documentação Power Query](../powerquery/README.md)
+📄 Ver detalhes: [Explorar documentação Power Query](./scripts/powerquery/README.md)
 
 ---
 
