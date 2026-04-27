@@ -1,14 +1,6 @@
-```sql
--- =========================================================
--- PROJETO: DRE Automatizada
--- ARQUIVO: yoy_valor.md
--- =========================================================
+# 🔹 YOY (VALOR)
 
--- =========================================================
--- 🔹 YOY (VALOR)
--- Referência: docs/07_analises.md
--- =========================================================
-
+```dax
 R$ | Receita Bruta YoY =
 VAR vPY = CALCULATE([R$ | Receita Bruta], PREVIOUSYEAR(dCalendario[Data]))
 RETURN
