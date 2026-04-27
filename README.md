@@ -10,6 +10,14 @@ Com o uso de Power Query, modelagem dimensional e DAX, foram construídos indica
 
 ---
 
+## 📢 Publicação no LinkedIn
+
+Este projeto também foi apresentado em formato de artigo, com foco em contexto de negócio e geração de valor:
+
+🔗 https://www.linkedin.com/pulse/dre-automatizada-em-power-bi-do-operacional-ao-ricardo-diniz-mpjjf/
+
+---
+
 ## 🎯 Valor para o Negócio
 
 O dashboard permite:
