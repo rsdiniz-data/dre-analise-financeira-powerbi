@@ -1,7 +1,7 @@
 # 🔹 Tabela Fato: Resultado
 
-📄 Referência: docs/04_pipeline_dados.md    
-📄 Referência: docs/05_modelagem.md
+📄 Referência: docs/04_pipeline_dados.md | Seção 4.2    
+📄 Referência: docs/05_modelagem.md | Seção 5.4
 
 ## 🎯 Objetivo
 
