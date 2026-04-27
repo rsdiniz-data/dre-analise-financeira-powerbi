@@ -2,7 +2,7 @@
 
 Este diretório contém todas as medidas DAX utilizadas no projeto de DRE automatizada.
 
-## Estrutura
+## 📂 Estrutura
 
 - [Base](./01_base.md)
 - [KPIs Principais](./02_kpis.md)
@@ -12,7 +12,7 @@ Este diretório contém todas as medidas DAX utilizadas no projeto de DRE automa
 - [Simulações](./06_simulacoes.md)
 - [Auxiliares](./07_auxiliares.md)
 
-## Rastreabilidade
+## 🔗 Rastreabilidade
 
 Cada medida contém referência direta à documentação em `/docs`, garantindo rastreabilidade completa entre:
 
@@ -20,7 +20,7 @@ Cada medida contém referência direta à documentação em `/docs`, garantindo 
 - Modelagem de dados  
 - Implementação técnica  
 
-## Observação
+## 📝 Observação
 
 As medidas seguem padronização de nomenclatura:
 
