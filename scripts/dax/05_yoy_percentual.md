@@ -1,4 +1,4 @@
-# 🔹 YOY (%)
+# 🔹 YoY (%)
 
 **Referência:** docs/07_analises.md | Seção 7.3
 
