@@ -14,3 +14,9 @@ Centralizar variáveis reutilizáveis para facilitar manutenção e portabilidad
 CaminhoPasta =
 "D:\Projetos de BI\DRE Embraer"
 meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+```
+## 🧠 Observações
+
+- Evita hardcode em múltiplas queries
+- Facilita mudança de ambiente (local → cloud)
+- Boa prática para escalabilidade
