@@ -1,6 +1,6 @@
 # 🔹SIMULAÇÕES (WHAT-IF)
 
-**Referência:** docs/08_simulacoes.md
+**Referência:** docs/08_simulacoes.md | Seção 8.4
 
 ```dax
 SIM | Receita WIF =
@@ -20,7 +20,7 @@ SIM | EBIT WIF =
 ```
 # 🔹IMPACTO DAS SIMULAÇÕES
 
-**Referência:** docs/08_simulacoes.md
+**Referência:** docs/08_simulacoes.md | Seção 8.4
 
 ```dax
 Δ | Impacto Receita =
