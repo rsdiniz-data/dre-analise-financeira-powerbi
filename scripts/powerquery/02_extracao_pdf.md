@@ -60,3 +60,9 @@ let
         )
 in
     ExpandData
+```
+## 🧠 Observações
+
+- Uso de Pdf.Tables() para leitura estruturada
+- Filtragem direcionada às tabelas da DRE
+- Preparação para transformação analítica (unpivot)
