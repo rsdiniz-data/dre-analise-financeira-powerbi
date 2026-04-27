@@ -45,14 +45,9 @@ Durante a preparação dos dados, foram aplicadas as seguintes transformações:
 
 As transformações foram implementadas utilizando Power Query (M), organizadas por responsabilidade:
 
-- 📊 Dimensão Plano de Contas  
-  👉 [03_dim_plano_conta.md](../scripts/powerquery/03_dim_plano_conta.md)
-
-- 🧾 Tabela Fato (Resultado)  
-  👉 [04_ft_resultado.md](../scripts/powerquery/04_ft_resultado.md)
-
-- 📅 Dimensão Calendário  
-  👉 [05_dim_calendario.md](../scripts/powerquery/05_dim_calendario.md)
+- [Dimensão Plano de Contas](./03_dim_plano_conta.md)
+- [Tabela Fato (Resultado)](./04_ft_resultado.md)
+- [Dimensão Calendário](./05_dim_calendario.md)
 
 ---
 
