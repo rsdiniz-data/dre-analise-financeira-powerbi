@@ -20,3 +20,7 @@ As medidas seguem padronização de nomenclatura:
 - % Δ → variações percentuais
 - AUX → medidas auxiliares
 - SIM → simulações (What-If)
+
+## Rastreabilidade
+
+Cada script contém referências diretas às seções da documentação em /docs.
