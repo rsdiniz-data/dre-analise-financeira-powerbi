@@ -2,6 +2,7 @@
 
 **Referência:** docs/07_analises.md
 
+```dax
 % Δ | Receita Bruta YoY =
 DIVIDE([R$ | Receita Bruta YoY], CALCULATE([R$ | Receita Bruta], PREVIOUSYEAR(dCalendario[Data])))
 
