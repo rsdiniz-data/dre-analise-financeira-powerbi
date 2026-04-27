@@ -1,4 +1,4 @@
-# 🔹 KPIs PRINCIPAIS
+# 🔹 KPIs Principais
 
 **Referência:** docs/06_kpis.md | Seção 6.1
 
