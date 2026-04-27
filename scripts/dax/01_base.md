@@ -1,15 +1,9 @@
-```sql
--- =========================================================
--- PROJETO: DRE Automatizada
--- ARQUIVO: base.md
--- =========================================================
+# 🔹 BASE
 
--- =========================================================
--- 🔹 BASE
--- Referência: docs/04_pipeline_dados.md
+## R$ | Total Resultado
+**Referência:** docs/04_pipeline_dados.md
 
--- =========================================================
-
+```dax
 R$ | Total Resultado =
 SUM(ftResultado[Valor])
 ```
