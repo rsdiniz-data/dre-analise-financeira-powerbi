@@ -1,14 +1,8 @@
-```sql
--- =========================================================
--- PROJETO: DRE Automatizada
--- ARQUIVO: simulacoes.md
--- =========================================================
+# 🔹SIMULAÇÕES (WHAT-IF)
 
--- =========================================================
--- 🔹 SIMULAÇÕES (WHAT-IF)
--- Referência: docs/08_simulacoes.md
--- =========================================================
+**Referência: docs/08_simulacoes.md
 
+```dax
 SIM | Receita WIF =
 [R$ | Receita Bruta] * (1 + [WIFReceita Valor])
 
