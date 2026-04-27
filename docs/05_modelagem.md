@@ -14,4 +14,4 @@
 As transformações descritas foram implementadas via Power Query.
 
 Scripts relacionados:
-- [/scripts/powerquery/transformacoes.md](/scripts/powerquery/transformacoes.md)
+📄 Ver detalhes: [Explorar documentação Power Query](../scripts/powerquery/README.md)
