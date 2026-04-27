@@ -7,6 +7,8 @@
 -- =========================================================
 -- 🔹 BASE
 -- Referência: docs/04_pipeline_dados.md
+-- Referência: [docs/04_pipeline_dados.md]
+
 -- =========================================================
 
 R$ | Total Resultado =
