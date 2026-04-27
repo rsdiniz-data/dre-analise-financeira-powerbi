@@ -48,7 +48,7 @@ let
 in
     CalendarTable
 ```
-```md
+
 ## 🧠 Observações
 
 - Geração dinâmica baseada na tabela fato
