@@ -4,13 +4,13 @@ Este diretório contém todas as medidas DAX utilizadas no projeto de DRE automa
 
 ## Estrutura
 
-- 🔹 [BASE](./01_base.md)
-- 🔹 [KPIs PRINCIPAIS](./02_kpis.md)
-- 🔹 [ANÁLISES (AH / AV)](./03_analises.md)
-- 🔹 [YOY (VALOR)](./04_yoy_valor.md)
-- 🔹 [YOY (%)](./05_yoy_percentual.md)
-- 🔹 [SIMULAÇÕES](./06_simulacoes.md)
-- 🔹 [AUXILIARES](./07_auxiliares.md)
+- [Base](./01_base.md)
+- [KPIs Principais](./02_kpis.md)
+- [Análises (AH / AV)](./03_analises.md)
+- [YoY (Valor)](./04_yoy_valor.md)
+- [YoY (%)](./05_yoy_percentual.md)
+- [Simulações](./06_simulacoes.md)
+- [Auxiliares](./07_auxiliares.md)
 
 ## Rastreabilidade
 
