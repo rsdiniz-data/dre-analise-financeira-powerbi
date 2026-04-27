@@ -1,6 +1,6 @@
 # 🔹SIMULAÇÕES (WHAT-IF)
 
-**Referência: docs/08_simulacoes.md
+**Referência:** docs/08_simulacoes.md
 
 ```dax
 SIM | Receita WIF =
