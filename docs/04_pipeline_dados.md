@@ -20,22 +20,9 @@ O pipeline foi estruturado em etapas bem definidas:
 
 ## 4.3 Implementação Técnica
 
-Os scripts foram organizados por responsabilidade, seguindo boas práticas de engenharia de dados:
+Os scripts foram organizados por responsabilidade, seguindo boas práticas de engenharia de dados.
 
-- 📌 Parâmetros  
-  👉 [01_parametros.md](../scripts/powerquery/01_parametros.md)
-
-- 📄 Extração de dados (PDF)  
-  👉 [02_extracao_pdf.md](../scripts/powerquery/02_extracao_pdf.md)
-
-- 📊 Dimensão Plano de Contas  
-  👉 [03_dim_plano_conta.md](../scripts/powerquery/03_dim_plano_conta.md)
-
-- 🧾 Tabela Fato (Resultado)  
-  👉 [04_ft_resultado.md](../scripts/powerquery/04_ft_resultado.md)
-
-- 📅 Dimensão Calendário  
-  👉 [05_dim_calendario.md](../scripts/powerquery/05_dim_calendario.md)
+📄 Ver detalhes: [Explorar documentação Power Query](./powerquery/README.md)
 
 ---
 
