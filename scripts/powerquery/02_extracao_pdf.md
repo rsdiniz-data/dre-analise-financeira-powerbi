@@ -1,4 +1,3 @@
-```md
 # 🔹 Extração de Dados (PDF)
 
 📄 Referência: docs/04_pipeline_dados.md | Seção 4.2.1 e 4.2.2
