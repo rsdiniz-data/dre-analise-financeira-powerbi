@@ -14,7 +14,7 @@
 Os indicadores foram construídos utilizando DAX, com base na estrutura da DRE.
 
 Scripts relacionados:
-- [Medidas DAX](../scripts/dax/readme.md)
+- [Ver Documentação DAX](../scripts/dax/README.md)
 
 ## 6.3 Exemplo de Implementação
 
@@ -31,4 +31,4 @@ Dessa forma, o cálculo consiste em:
 
 A implementação pode ser vista em:
 
-- [Medidas DAX](../scripts/dax/readme.md)
+- [Ver Documentação DAX](../scripts/dax/README.md)
