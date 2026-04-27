@@ -2,6 +2,8 @@
 
 ## 6.1 Principais Métricas
 
+Os principais indicadores financeiros foram estruturados com base na DRE:
+
 - Receita Bruta
 - Custos
 - Despesas
@@ -9,26 +11,58 @@
 - EBIT
 - Lucro Líquido
 
-## 6.2 Cálculo
+---
 
-Os indicadores foram construídos utilizando DAX, com base na estrutura da DRE.
+## 6.2 Lógica de Cálculo
 
-Scripts relacionados:
-- [Ver Documentação DAX](../scripts/dax/README.md)
+Os indicadores foram construídos em DAX, utilizando a estrutura da modelagem dimensional.
+
+A apuração segue a classificação contábil definida na dimensão `dPlanoConta`, garantindo consistência entre:
+
+- Estrutura da DRE
+- Regras de negócio
+- Cálculo dos indicadores
+
+---
 
 ## 6.3 Exemplo de Implementação
 
-A Receita Bruta é calculada a partir da soma dos valores financeiros classificados como receita no plano de contas.
+A **Receita Bruta** é calculada a partir das contas classificadas como receita operacional.
 
-Essa classificação é feita através do campo `CodDRE`, onde:
+Essa classificação é definida pelo campo `CodDRE`, onde:
 
-- "3.01" representa contas de Receita
+- `"3.01"` representa contas de Receita
 
-Dessa forma, o cálculo consiste em:
+### Regra aplicada:
 
-- Filtrar apenas contas com `CodDRE = "3.01"`
-- Somar os valores correspondentes na tabela fato
+- Filtrar contas com `CodDRE = "3.01"`
+- Agregar os valores na tabela fato (`ftResultado`)
 
-A implementação pode ser vista em:
+Essa abordagem garante que o indicador respeite a estrutura contábil da DRE.
 
-- [Ver Documentação DAX](../scripts/dax/README.md)
+---
+
+## 6.4 Implementação Técnica
+
+Os cálculos foram implementados em DAX, organizados por categoria:
+
+- 📊 KPIs principais
+- 📈 Análises (AH, AV, YoY)
+- 🧪 Simulações (What-If)
+- 🔧 Medidas auxiliares
+
+👉 [Explorar documentação DAX](../scripts/dax/README.md)
+
+---
+
+## 🔗 Rastreabilidade
+
+Os indicadores estão diretamente conectados a:
+
+- Modelagem de dados → seção 5  
+- Pipeline de dados → seção 4  
+- Implementação técnica → scripts DAX  
+
+Essa estrutura permite validação completa do fluxo:
+
+**dado bruto → transformação → modelagem → cálculo do KPI**
