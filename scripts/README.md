@@ -12,7 +12,6 @@ Contém as medidas utilizadas no Power BI:
 - Simulações de cenário (What-If)
 - Medidas auxiliares
 
-📄 Ver detalhes em: `scripts/dax/README.md`
 📄 Ver detalhes: [Explorar documentação DAX](./dax/README.md)
 
 ---
@@ -25,7 +24,6 @@ Contém o pipeline de dados (ETL):
 - Construção da tabela fato
 - Criação das dimensões
 
-📄 Ver detalhes em: `scripts/powerquery/README.md`
 📄 Ver detalhes: [Explorar documentação Power Query](./powerquery/README.md)
 
 ---
