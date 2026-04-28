@@ -1,13 +1,12 @@
 # 5. Dicionário de Dados
 ## 5.1 Tabela dPlanoConta
-Descrição
+## Descrição
 
 Dimensão responsável pela hierarquia do plano de contas da DRE, permitindo análises por nível (N1, N2, N3) e suportando a construção dos indicadores financeiros.
 
-Script relacionado:
-Ver transformação no Power Query
+Script relacionado: [Ver transformação no Power Query](./03_dim_plano_conta.md)
 
-Estrutura
+## Estrutura
 Coluna	Tipo	Descrição	Relacionamentos
 ID Conta	Texto	Identificador único da conta contábil	1:* → ftResultado[ID Conta]
 Descrição	Texto	Nome da conta	—
@@ -22,15 +21,15 @@ Observações
 Hierarquia baseada na estrutura do ID Conta
 Contas sintéticas (Lançamento = 0) são utilizadas apenas para agregação
 TipoIndicador auxilia no cálculo de variações (ex.: AH)
+
 ## 5.2 Tabela ftResultado
-Descrição
+## Descrição
 
 Tabela fato do modelo, contendo os valores financeiros da DRE por conta e data. Base para todos os cálculos e indicadores.
 
-Script relacionado:
-Ver transformação no Power Query
+Script relacionado: [Ver transformação no Power Query](./04_ft_resultado.md)
 
-Estrutura
+## Estrutura
 Coluna	Tipo	Descrição	Relacionamentos
 ID Conta	Texto	Conta contábil associada ao valor	*:1 → dPlanoConta[ID Conta]
 Data	Data	Data de referência (fechamento)	*:1 → dCalendario[Data]
@@ -39,15 +38,15 @@ Observações
 Contém apenas contas analíticas (Lançamento = 1)
 Dados no formato long (unpivot)
 Base para KPIs e análises (YoY, AH, AV)
+
 ## 5.3 Tabela dCalendario
-Descrição
+## Descrição
 
 Dimensão de tempo utilizada para análises temporais e comparações entre períodos.
 
-Script relacionado:
-Ver transformação no Power Query
+Script relacionado: [Ver transformação no Power Query](./05_dim_calendario.md)
 
-Estrutura
+## Estrutura
 Coluna	Tipo	Descrição	Relacionamentos
 Data	Data	Data completa	1:* → ftResultado[Data]
 Ano	Inteiro	Ano da data	—
@@ -57,6 +56,7 @@ Observações
 Cobre todo o intervalo da ftResultado
 Mes_Num deve ser utilizado para ordenação do mês
 Pode ser expandida com novos atributos (trimestre, semana, etc.)
+
 ## 5.4 Estrutura do Modelo
 
 Modelo dimensional no padrão Star Schema:
