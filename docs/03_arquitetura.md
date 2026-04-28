@@ -23,3 +23,9 @@ Essa abordagem permite separar claramente os dados transacionais (fato) das estr
 - dCalendario (1:N) → ftResultado  
 
 Esses relacionamentos garantem a integridade do modelo e possibilitam análises multidimensionais de forma eficiente.
+
+## 3.4 Diagrama do Modelo
+
+Abaixo está a representação visual do modelo dimensional:
+
+![Modelo Dimensional](../images/modelo_dimensional_star_schema_dre.png)
