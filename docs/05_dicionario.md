@@ -32,11 +32,11 @@ Tabela fato do modelo, contendo os **valores financeiros da DRE por conta e data
 **Script relacionado:** [Ver transformação no Power Query](../scripts/powerquery/04_ft_resultado.md)
 
 ## Estrutura
-Coluna       | Tipo     | Descrição                                   | Relacionamentos
--------------|----------|---------------------------------------------|-------------------------------
-ID Conta     | Texto    | Conta contábil associada ao valor           | *:1 → dPlanoConta[ID Conta]
-Data         | Data     | Data de referência (fechamento)             | *:1 → dCalendario[Data]
-Valor        | Decimal  | Valor financeiro                            | —
+| Coluna     | Tipo    | Descrição                                   | Relacionamentos               |
+|------------|---------|---------------------------------------------|-------------------------------|
+| `ID Conta` | Texto   | Conta contábil associada ao valor           | N:1 → `dPlanoConta[ID Conta]` |
+| `Data`     | Data    | Data de referência (fechamento)             | N:1 → `dCalendario[Data]`     |
+| `Valor`    | Decimal | Valor financeiro                            | —                             |
 ## Observações
 - Contém apenas contas analíticas (`Lançamento = 1`)
 - Dados no formato long (unpivot)
@@ -50,11 +50,12 @@ Dimensão de tempo utilizada para **análises temporais** e comparações entre 
 **Script relacionado:** [Ver transformação no Power Query](../scripts/powerquery//05_dim_calendario.md)
 
 ## Estrutura
-Coluna	Tipo	Descrição	Relacionamentos
-Data	Data	Data completa	1:* → ftResultado[Data]
-Ano	Inteiro	Ano da data	—
-Mes	Texto	Nome abreviado do mês	—
-Mes_Num	Inteiro	Número do mês (ordenação)	—
+| Coluna     | Tipo    | Descrição                                   | Relacionamentos               |
+|------------|---------|---------------------------------------------|-------------------------------|
+| `Data`     | Data    | Data completa                               | 1:N → `ftResultado[Data]`     |
+| `Ano`      | Inteiro | Ano da data                                 | —                             |
+| `Mes`      | Texto   | Nome abreviado do mês                       | —                             |
+| `Mes_Num`  | Inteiro | Número do mês (ordenação cronológica)       | —                             |
 ## Observações
 - Cobre todo o intervalo da `ftResultado`
 - `Mes_Num` deve ser utilizado para ordenação do mês
