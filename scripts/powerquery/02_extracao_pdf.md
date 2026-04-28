@@ -1,6 +1,6 @@
 # 🔹 Extração de Dados (PDF)
 
-📄 Referência: docs/04_desenvolvimento.md | Seção 4.4
+📄 Referência: docs/04_desenvolvimento.md | Seção 4.2 e 4.4
 
 ## 🎯 Objetivo
 
