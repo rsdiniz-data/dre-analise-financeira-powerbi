@@ -8,7 +8,7 @@ Este diretório contém a documentação técnica completa da solução, organiz
 - [02. Objetivo](02_objetivo.md)
 - [03. Arquitetura da Solução](03_arquitetura.md)
 - [04. Desenvolvimento](04_desenvolvimento.md)
-- [05. Dicionario](05_dicionario.md)
+- [05. Dicionário](05_dicionario.md)
 - [06. Indicadores (KPIs)](06_kpis.md)
 - [07. Análises](07_analises.md)
 - [08. Simulações](08_simulacoes.md)
