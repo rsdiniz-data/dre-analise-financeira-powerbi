@@ -55,7 +55,7 @@ Os cálculos foram implementados em DAX, organizados por categoria:
 
 ## 6.5 Cartões Executivos
 
-![Cartões Executivos](images/cartoes_executivos_indicadores_financeiros.png)
+![Cartões Executivos](../images/cartoes_executivos_indicadores_financeiros.png)
 
 ---
 
