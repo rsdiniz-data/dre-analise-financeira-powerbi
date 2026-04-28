@@ -60,9 +60,10 @@ Mes_Num	Inteiro	Número do mês (ordenação)	—
 ## 5.4 Estrutura do Modelo
 
 Modelo dimensional no padrão Star Schema:
-
+```
 dPlanoConta (1) → (*) ftResultado
 dCalendario (1) → (*) ftResultado
+```
 ## Considerações
 - Separação clara entre fato e dimensões
 - Estrutura escalável e de fácil manutenção
