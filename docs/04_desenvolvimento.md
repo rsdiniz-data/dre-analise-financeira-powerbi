@@ -3,8 +3,6 @@
 - PDFs contendo a DRE (demonstrações financeiras)
 - Planilhas Excel com plano de contas
 
----
-
 ## 4.2 Pipeline de Dados
 
 O pipeline foi estruturado em etapas bem definidas:
@@ -13,8 +11,6 @@ O pipeline foi estruturado em etapas bem definidas:
 - Extração → identificação e captura das tabelas da DRE nos PDFs
 - Transformação → limpeza, padronização e estruturação dos dados
 - Carga → organização final no modelo dimensional
-
----
 
 ## 4.3 Modelagem de Dados
 
@@ -27,8 +23,6 @@ Estrutura do Modelo
   - `dPlanoConta` → estrutura hierárquica da DRE (N1, N2, N3)
   - `dCalendario` → suporte a análises temporais (Ano, Mês)
 
----
-
 ## 4.4 Transformações Aplicadas
 
 Durante a preparação dos dados, foram aplicadas as seguintes transformações:
@@ -40,16 +34,12 @@ Durante a preparação dos dados, foram aplicadas as seguintes transformações:
 - Classificação de contas
   Identificação da natureza financeira (Receita vs Custos/Despesas)
 
----
-
 ## 4.5 Regras de Negócio
 
 - Exclusão de contas sintéticas
 - Consideração apenas de contas analíticas (`Lançamento = 1`)
 - Padronização de tipos de dados
 - Enriquecimento da tabela fato via relacionamento com dimensão
-
----
 
 ## 4.6 Implementação Técnica
 
@@ -60,11 +50,9 @@ As transformações foram implementadas utilizando Power Query (M), organizadas 
 - [Tabela Fato (Resultado)](../scripts/powerquery/04_ft_resultado.md)
 - [Dimensão Calendário](../scripts/powerquery/05_dim_calendario.md)
 
-📄 Ver visão completa:  [Explorar documentação Power Query](../scripts/powerquery/README.md)
+Ver visão completa:  [Explorar documentação Power Query](../scripts/powerquery/README.md)
 
-## 🔗 Rastreabilidade
-
----
+## Rastreabilidade
 
 A solução foi estruturada garantindo rastreabilidade completa entre:
 
