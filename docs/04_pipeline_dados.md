@@ -1,5 +1,5 @@
 # 4. Desenvolvimento do Projeto
-4.1 Fontes de Dados
+## 4.1 Fontes de Dados
 - PDFs contendo a DRE (demonstrações financeiras)
 - Planilhas Excel com plano de contas
 
@@ -22,10 +22,10 @@ A modelagem foi estruturada seguindo o padrão Star Schema, com separação entr
 
 Estrutura do Modelo
 - Tabela Fato
-  - ftResultado → armazena valores financeiros por conta e data
+  - `ftResultado` → armazena valores financeiros por conta e data
 - Dimensões
-  - dPlanoConta → estrutura hierárquica da DRE (N1, N2, N3)
-  - dCalendario → suporte a análises temporais (Ano, Mês)
+  - `dPlanoConta` → estrutura hierárquica da DRE (N1, N2, N3)
+  - `dCalendario` → suporte a análises temporais (Ano, Mês)
 
 ---
 
@@ -45,7 +45,7 @@ Durante a preparação dos dados, foram aplicadas as seguintes transformações:
 ## 4.5 Regras de Negócio
 
 - Exclusão de contas sintéticas
-- Consideração apenas de contas analíticas (Lançamento = 1)
+- Consideração apenas de contas analíticas (`Lançamento = 1`)
 - Padronização de tipos de dados
 - Enriquecimento da tabela fato via relacionamento com dimensão
 
