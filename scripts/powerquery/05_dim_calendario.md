@@ -1,6 +1,6 @@
 # 🔹 Dimensão Calendário
 
-📄 Referência: docs/05_modelagem.md | Seção 5.4
+📄 Referência: docs/05_dicionario.md | Seção 5.3
 
 ## 🎯 Objetivo
 
