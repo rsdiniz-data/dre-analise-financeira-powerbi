@@ -7,6 +7,7 @@ Dimensão responsável pela **hierarquia do plano de contas da DRE**, permitindo
 **Script relacionado:** [Ver transformação no Power Query](../scripts/powerquery/03_dim_plano_conta.md)
 
 ## Estrutura
+```
 Coluna	Tipo	Descrição	Relacionamentos
 ID Conta	Texto	Identificador único da conta contábil	1:* → ftResultado[ID Conta]
 Descrição	Texto	Nome da conta	—
@@ -21,6 +22,7 @@ TipoIndicador	Inteiro	Classificação do indicador (Receita, Custo, Despesa, etc
 - Hierarquia baseada na estrutura do `ID Conta`
 - Contas sintéticas (`Lançamento = 0`) são utilizadas apenas para agregação
 - `TipoIndicador` auxilia no cálculo de variações (ex.: AH)
+```
 
 ## 5.2 Tabela `ftResultado`
 ## Descrição
