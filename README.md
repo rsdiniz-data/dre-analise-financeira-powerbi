@@ -69,8 +69,8 @@ Desenvolvimento de uma solução completa de dados, envolvendo:
 
 ## 📸 Dashboard
 
-![Dashboard DRE](images/Dashboard_1_DRE.png)
-![Simulador](images/Dashboard_2_Simulador.png)
+![Dashboard DRE](images/dashboard_1_dre.png)
+![Simulador](images/dashboard_2_simulador.png)
 
 ---
 
