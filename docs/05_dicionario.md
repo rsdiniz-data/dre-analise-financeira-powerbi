@@ -8,16 +8,17 @@ Dimensão responsável pela **hierarquia do plano de contas da DRE**, permitindo
 
 ## Estrutura
 
-Coluna	Tipo	Descrição	Relacionamentos
-ID Conta	Texto	Identificador único da conta contábil	1:* → ftResultado[ID Conta]
-Descrição	Texto	Nome da conta	—
-Lançamento	Inteiro	1 = analítica / 0 = sintética	—
-N1	Texto	Grupo principal (ex.: Receita, Custos)	—
-N2	Texto	Subgrupo contábil	—
-N3	Texto	Conta analítica	—
-CodDRE	Texto	Código da estrutura da DRE	—
-Calculado	Inteiro	Controle de agregações no modelo	—
-TipoIndicador	Inteiro	Classificação do indicador (Receita, Custo, Despesa, etc.)	—
+| Coluna          | Tipo    | Descrição                                             | Relacionamentos                |
+|-----------------|---------|-------------------------------------------------------|--------------------------------|
+| `ID Conta`      | Texto   | Identificador único da conta contábil                 | 1:N → `ftResultado[ID Conta]`  |
+| `Descrição`     | Texto   | Nome da conta                                        | —                              |
+| `Lançamento`    | Inteiro | 1 = analítica / 0 = sintética                        | —                              |
+| `N1`            | Texto   | Grupo principal (ex.: Receita, Custos)               | —                              |
+| `N2`            | Texto   | Subgrupo contábil                                    | —                              |
+| `N3`            | Texto   | Conta analítica                                      | —                              |
+| `CodDRE`        | Texto   | Código da estrutura da DRE                           | —                              |
+| `Calculado`     | Inteiro | Controle de agregações no modelo                     | —                              |
+| `TipoIndicador` | Inteiro | Classificação do indicador (Receita, Custo, etc.)    | —                              |
 ## Observações
 - Hierarquia baseada na estrutura do `ID Conta`
 - Contas sintéticas (`Lançamento = 0`) são utilizadas apenas para agregação
