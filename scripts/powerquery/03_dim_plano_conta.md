@@ -1,6 +1,7 @@
 # 🔹 Dimensão: Plano de Contas
 
-📄 Referência: docs/04_desenvolvimento.md | Seção 4.2 e 4.4 e docs/05_dicionario.md | Seção 5.1
+📄 Referência: docs/04_desenvolvimento.md | Seção 4.2 e 4.4 
+📄 Referência: docs/05_dicionario.md | Seção 5.1
 
 ## 🎯 Objetivo
 
