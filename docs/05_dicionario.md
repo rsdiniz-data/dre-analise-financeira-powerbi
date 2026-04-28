@@ -4,7 +4,7 @@
 
 Dimensão responsável pela **hierarquia do plano de contas da DRE**, permitindo análises por nível (`N1`, `N2`, `N3`) e suportando a construção dos indicadores financeiros.
 
-**Script relacionado:** [Ver transformação no Power Query](../scripts/03_dim_plano_conta.md)
+**Script relacionado:** [Ver transformação no Power Query](../scripts/powerquery/03_dim_plano_conta.md)
 
 ## Estrutura
 Coluna	Tipo	Descrição	Relacionamentos
@@ -27,7 +27,7 @@ TipoIndicador	Inteiro	Classificação do indicador (Receita, Custo, Despesa, etc
 
 Tabela fato do modelo, contendo os **valores financeiros da DRE por conta e data**. Base para todos os cálculos e indicadores.
 
-**Script relacionado:** [Ver transformação no Power Query](./04_ft_resultado.md)
+**Script relacionado:** [Ver transformação no Power Query](../scripts/powerquery/04_ft_resultado.md)
 
 ## Estrutura
 Coluna	Tipo	Descrição	Relacionamentos
@@ -44,7 +44,7 @@ Valor	Decimal	Valor financeiro	—
 
 Dimensão de tempo utilizada para **análises temporais** e comparações entre períodos.
 
-**Script relacionado:** [Ver transformação no Power Query](./05_dim_calendario.md)
+**Script relacionado:** [Ver transformação no Power Query](../scripts/powerquery//05_dim_calendario.md)
 
 ## Estrutura
 Coluna	Tipo	Descrição	Relacionamentos
