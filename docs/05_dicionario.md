@@ -32,10 +32,11 @@ Tabela fato do modelo, contendo os **valores financeiros da DRE por conta e data
 **Script relacionado:** [Ver transformação no Power Query](../scripts/powerquery/04_ft_resultado.md)
 
 ## Estrutura
-Coluna	Tipo	Descrição	Relacionamentos
-ID Conta	Texto	Conta contábil associada ao valor	*:1 → dPlanoConta[ID Conta]
-Data	Data	Data de referência (fechamento)	*:1 → dCalendario[Data]
-Valor	Decimal	Valor financeiro	—
+Coluna       | Tipo     | Descrição                                   | Relacionamentos
+-------------|----------|---------------------------------------------|-------------------------------
+ID Conta     | Texto    | Conta contábil associada ao valor           | *:1 → dPlanoConta[ID Conta]
+Data         | Data     | Data de referência (fechamento)             | *:1 → dCalendario[Data]
+Valor        | Decimal  | Valor financeiro                            | —
 ## Observações
 - Contém apenas contas analíticas (`Lançamento = 1`)
 - Dados no formato long (unpivot)
