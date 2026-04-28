@@ -57,15 +57,15 @@ Além disso, são apresentados os impactos absolutos:
 
 As simulações foram implementadas em DAX, utilizando medidas específicas para cenário:
 
-- 📊 Medidas simuladas (WIF)
-- 📈 Medidas de impacto (Δ)
-- 🔧 Parâmetros dinâmicos
+- Medidas simuladas (WIF)
+- Medidas de impacto (Δ)
+- Parâmetros dinâmicos
 
-👉 [Explorar implementações DAX](../scripts/dax/README.md)
+[Explorar implementações DAX](../scripts/dax/README.md)
 
 ---
 
-## 🔗 Rastreabilidade
+## Rastreabilidade
 
 As simulações estão conectadas a:
 
