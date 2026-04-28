@@ -46,16 +46,16 @@ Essa abordagem garante que o indicador respeite a estrutura contábil da DRE.
 
 Os cálculos foram implementados em DAX, organizados por categoria:
 
-- 📊 KPIs principais
-- 📈 Análises (AH, AV, YoY)
-- 🧪 Simulações (What-If)
-- 🔧 Medidas auxiliares
+- KPIs principais
+- Análises (AH, AV, YoY)
+- Simulações (What-If)
+- Medidas auxiliares
 
-👉 [Explorar documentação DAX](../scripts/dax/README.md)
+[Explorar documentação DAX](../scripts/dax/README.md)
 
 ---
 
-## 🔗 Rastreabilidade
+## Rastreabilidade
 
 Os indicadores estão diretamente conectados a:
 
