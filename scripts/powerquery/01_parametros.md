@@ -12,7 +12,7 @@ Centralizar variáveis reutilizáveis para facilitar manutenção e portabilidad
 
 ```powerquery
 CaminhoPasta =
-"D:\Projetos de BI\DRE Embraer"
+"D:\DRE Embraer"
 meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
 ```
 ## 🧠 Observações
