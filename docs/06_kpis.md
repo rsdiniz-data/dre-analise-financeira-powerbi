@@ -53,6 +53,10 @@ Os cálculos foram implementados em DAX, organizados por categoria:
 
 [Explorar documentação DAX](../scripts/dax/README.md)
 
+## 6.5 Cartões Executivos
+
+![Cartões Executivos](images/cartoes_executivos_indicadores_financeiros.png)
+
 ---
 
 ## Rastreabilidade
