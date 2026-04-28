@@ -1,6 +1,6 @@
 # 🔹 Base
 
-**Referência:** docs/04_pipeline_dados.md
+**Referência:** docs/04_desenvolvimento.md
 
 ```dax
 R$ | Total Resultado =
