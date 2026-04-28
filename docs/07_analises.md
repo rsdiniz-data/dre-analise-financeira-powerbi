@@ -53,11 +53,11 @@ As análises foram implementadas em DAX, utilizando funções de inteligência t
 - `PREVIOUSYEAR`
 - `CALCULATE` e manipulação de contexto
 
-👉 [Explorar implementações DAX](../scripts/dax/README.md)
+[Explorar implementações DAX](../scripts/dax/README.md)
 
 ---
 
-## 🔗 Rastreabilidade
+## Rastreabilidade
 
 As análises estão diretamente conectadas a:
 
