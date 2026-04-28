@@ -63,8 +63,7 @@ Os cálculos foram implementados em DAX, organizados por categoria:
 
 Os indicadores estão diretamente conectados a:
 
-- Modelagem de dados → seção 5  
-- Pipeline de dados → seção 4  
+- Desenvolvimento → seção 4  
 - Implementação técnica → scripts DAX  
 
 Essa estrutura permite validação completa do fluxo:
