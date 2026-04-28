@@ -4,7 +4,7 @@
 
 Dimensão responsável pela **hierarquia do plano de contas da DRE**, permitindo análises por nível (`N1`, `N2`, `N3`) e suportando a construção dos indicadores financeiros.
 
-**Script relacionado:** [Ver transformação no Power Query](./03_dim_plano_conta.md)
+**Script relacionado:** [Ver transformação no Power Query](.scripts/03_dim_plano_conta.md)
 
 ## Estrutura
 Coluna	Tipo	Descrição	Relacionamentos
