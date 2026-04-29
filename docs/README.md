@@ -34,6 +34,6 @@ Cada script contém referências às seções da documentação, permitindo vali
 ## 🧭 Como Navegar
 
 - Comece pelo **Contexto de Negócio** para entender o problema  
-- Avance para **Pipeline** e **Modelagem** para compreender a construção dos dados  
+- Avance para **Desenvolvimento** e **Dicionário** para compreender a construção dos dados  
 - Explore **KPIs** e **Análises** para ver a aplicação prática  
 - Consulte os **Scripts** para validação técnica da solução
