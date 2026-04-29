@@ -61,7 +61,6 @@ As análises foram implementadas em DAX, utilizando funções de inteligência t
 
 As análises estão diretamente conectadas a:
 
-- Modelagem de dados → seção 5  
 - Indicadores (KPIs) → seção 6  
 - Implementação técnica → scripts DAX  
 
