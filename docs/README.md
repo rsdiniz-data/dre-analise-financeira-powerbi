@@ -8,7 +8,7 @@ Este diretório contém a documentação técnica completa da solução, organiz
 - [02. Objetivo](02_objetivo.md)
 - [03. Arquitetura da Solução](03_arquitetura.md)
 - [04. Desenvolvimento](04_desenvolvimento.md)
-- [05. Dicionário](05_dicionario.md)
+- [05. Dicionário de Dados](05_dicionario.md)
 - [06. Indicadores (KPIs)](06_kpis.md)
 - [07. Análises](07_analises.md)
 - [08. Simulações](08_simulacoes.md)
@@ -34,6 +34,6 @@ Cada script contém referências às seções da documentação, permitindo vali
 ## 🧭 Como Navegar
 
 - Comece pelo **Contexto de Negócio** para entender o problema  
-- Avance para **Desenvolvimento** e **Dicionário** para compreender a construção dos dados  
+- Avance para **Desenvolvimento** e **Dicionário de Dados** para compreender a construção dos dados  
 - Explore **KPIs** e **Análises** para ver a aplicação prática  
 - Consulte os **Scripts** para validação técnica da solução
