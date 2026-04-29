@@ -14,7 +14,7 @@ Este diretório contém todas as medidas DAX utilizadas no projeto de DRE automa
 
 ## 🔗 Rastreabilidade
 
-Cada medida contém referência direta à documentação em `/docs`, garantindo rastreabilidade completa entre:
+Cada grupo de medidas contém referência direta à documentação em `/docs`, garantindo rastreabilidade completa entre:
 
 - Regra de negócio  
 - Modelagem de dados  
