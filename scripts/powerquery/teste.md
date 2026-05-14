@@ -1,3 +1,4 @@
+```python
 =========================================================    
 DCALENDARIO.pq
 Projeto: DRE Automatizada em Power BI
@@ -22,6 +23,7 @@ Objetivo:
 Estrutura:
 dCalendario → ftResultado
 =========================================================
+```
 
 # 🔹 Dimensão Calendário
 
