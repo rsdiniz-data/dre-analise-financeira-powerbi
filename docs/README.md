@@ -5,14 +5,14 @@ Este diretório contém a documentação técnica completa da solução, organiz
 ## 📚 Estrutura
 
 - [01. Contexto de Negócio](01_contexto_negocio.md)
-- [02. Objetivo](02_objetivo.md)
+- [02. Justificativa](02_justificativa.md)
 - [03. Arquitetura da Solução](03_arquitetura.md)
 - [04. Desenvolvimento](04_desenvolvimento.md)
 - [05. Dicionário de Dados](05_dicionario.md)
 - [06. Indicadores (KPIs)](06_kpis.md)
-- [07. Análises](07_analises.md)
-- [08. Simulações](08_simulacoes.md)
-- [09. Conclusão](09_conclusao.md)
+- [07. Métricas e Indicadores (DAX)](07_metricas.md)
+- [08. Visualizações Analíticas](08_visualizacoes.md)
+- [09. Entrega de Valor](09_entrega_valor.md)
 - [10. artigo_tecnico](10_artigo_tecnico.md)
 
 A leitura segue uma ordem lógica, facilitando o entendimento completo da solução — desde o problema de negócio até a entrega analítica.
