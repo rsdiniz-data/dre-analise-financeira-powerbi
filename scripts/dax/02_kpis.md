@@ -1,6 +1,6 @@
 # 🔹 KPIs Principais
 
-**Referência:** docs/06_kpis.md | Seção 6.1
+**Referência:** docs/06_mapeamento_kpis.md
 
 ```dax
 R$ | Receita Bruta =
