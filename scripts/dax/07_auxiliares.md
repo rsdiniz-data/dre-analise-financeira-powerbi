@@ -1,6 +1,6 @@
 # 🔹Auxiliares
 
-**Referência:** docs/07_analises.md
+**Referência:** docs/07_metricas.md
 
 ```dax
 AUX | Direção Indicador =
@@ -19,7 +19,7 @@ AUX | Texto Título Rótulo =
 
 # 🔹Auxiliares (YoY)
 
-**Referência:** docs/07_analises.md | Seção 7.3
+**Referência:** docs/07_metricas.md
 
 ```dax
 AUX | % R$ Δ | Custos YoY =
