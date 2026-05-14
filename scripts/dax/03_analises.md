@@ -1,6 +1,7 @@
 # 🔹 Análises (AH / AV)
 
-**Referência:** docs/07_metricas.md
+**Referência:** docs/07_metricas.md    
+**Artigo Técnico:** docs/10_artigo_tecnico.md -> 7. Métricas e Indicadores (DAX) 
 
 ```dax
 % Δ | AH DRE =
