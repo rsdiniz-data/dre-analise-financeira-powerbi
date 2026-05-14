@@ -1,86 +1,55 @@
-# 6. Indicadores (KPIs)
+# 6. Mapeamento de Indicadores (KPIs)
 
 ## 🎯 Objetivo
+Estabelecer a estrutura conceitual dos indicadores financeiros antes da implementação técnica em DAX, garantindo alinhamento entre regras de negócio, modelagem dimensional e necessidades da Diretoria Financeira.
 
-Estruturar indicadores financeiros para análise da performance econômica da empresa, utilizando a modelagem dimensional e as regras contábeis da DRE.
-
-Os KPIs foram desenvolvidos para apoiar análises gerenciais, comparações históricas e acompanhamento da evolução dos resultados financeiros.
-
----
-
-## 📊 Principais Indicadores
-
-Indicadores implementados no modelo:
-
-- Receita Bruta
-- Custos
-- Despesas
-- EBITDA
-- EBIT
-- Lucro Líquido
-- Margem Bruta
-- Margem EBITDA
+> “O processo se inicia com a identificação do principal stakeholder [...] seguido da definição do KPI central do projeto — o Resultado Líquido do Exercício (Lucro Líquido).”
 
 ---
 
-## ⚙️ Estrutura de Cálculo
+## 👤 Stakeholder e KPI Central
+- **Stakeholder principal:** Diretoria Financeira / Controladoria  
+- **KPI central:** **Lucro Líquido**  
+- **Processos monitorados:**  
+  - Geração de receita  
+  - Eficiência operacional  
+  - Rentabilidade  
 
-As métricas foram desenvolvidas em DAX utilizando:
-
-- Tabela fato `ftResultado`
-- Dimensão `dPlanoConta`
-- Hierarquia da DRE (`N1`, `N2`, `N3`)
-- Classificação contábil (`CodDRE` e `TipoIndicador`)
-
-Essa abordagem garante consistência entre:
-
-- Regras de negócio
-- Estrutura contábil
-- Indicadores financeiros
+Esse mapeamento orienta a priorização dos indicadores e assegura que o modelo reflita corretamente a lógica contábil da DRE.
 
 ---
 
-## 📈 Análises Implementadas
+## 🧱 Estrutura dos Indicadores
+Os KPIs foram definidos com base na hierarquia contábil e na modelagem dimensional:
 
-Além dos KPIs principais, o modelo suporta:
+- Tabela fato **ftResultado**  
+- Dimensão **dPlanoConta**  
+- Hierarquia da DRE (N1, N2, N3)  
+- Classificação contábil (**CodDRE**, **TipoIndicador**)  
 
-- YoY (Year over Year)
-- AH (Análise Horizontal)
-- AV (Análise Vertical)
-- Comparações temporais
-- Indicadores percentuais
-
----
-
-## 💻 Implementação Técnica
-
-As medidas DAX foram organizadas por responsabilidade:
-
-- [KPIs principais](../scripts/dax/02_kpis.md)
-- [Análises financeiras](../scripts/dax/03_analises.md)
-- [Simulações What-If](../scripts/dax/06_simulacoes.md)
-- [Medidas auxiliares](../scripts/dax/07_auxiliares.md)
-
-📄 Ver visão completa:
-👉 [Explorar documentação DAX](../scripts/dax/README.md)
+> “Esse procedimento é fundamental para demonstrar compreensão do contexto financeiro antes da etapa técnica.”
 
 ---
 
-## 📷 Indicadores no Dashboard
+## 📊 KPIs Financeiros Mapeados
+Indicadores estruturados no projeto:
 
-![KPIs Financeiros](../images/cartoes_executivos_indicadores_financeiros.png)
+- Receita Bruta  
+- Custos  
+- Despesas  
+- Margem Bruta  
+- EBIT  
+- EBITDA  
+- Lucro Líquido  
+
+Esses KPIs sustentam análises de desempenho, eficiência e rentabilidade.
 
 ---
 
 ## 🔗 Rastreabilidade
+O mapeamento formaliza definições, reduz ambiguidades e garante reprodutibilidade:
 
-Os indicadores estão conectados diretamente a:
+> “O mapeamento formaliza as definições dos indicadores, reduz ambiguidades e permite replicar o processo de levantamento de requisitos em projetos futuros.”
 
-- Desenvolvimento do projeto
-- Modelagem dimensional
-- Regras contábeis
-- Scripts DAX
-
-Fluxo completo:
-
-`Fonte de Dados → Transformação → Modelagem → KPI`
+Fluxo completo:  
+**Fonte de Dados → Transformação → Modelagem → KPI**
