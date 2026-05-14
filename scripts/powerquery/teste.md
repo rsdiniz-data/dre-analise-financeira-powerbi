@@ -1,71 +1,9 @@
-```python
-=========================================================    
-DCALENDARIO.pq
-Projeto: DRE Automatizada em Power BI
-
-Objetivo:
-- Criar dimensão calendário dinâmica
-- Suportar análises temporais da DRE
-- Habilitar inteligência de tempo no Power BI
-
-🔗 Rastreabilidade:
-- Documento técnico:
-  ../docs/04_desenvolvimento.md
-  ../docs/05_dicionario.md
-
-- Artigo:
-  ../docs/10_artigo_tecnico.md
-  4.6 Transformações – dCalendario
-  4.6.1 Etapas e justificativas
-  5.3 Tabela dCalendario
-  5.3.1 Descrição da Tabela
-  5.3.2 Estrutura da Tabela
-Estrutura:
-dCalendario → ftResultado
-=========================================================
-```
-```python
-# =========================================================
-# DCALENDARIO.pq
-# Projeto: DRE Automatizada em Power BI
-#
-# Objetivo:
-# - Criar dimensão calendário dinâmica
-# - Suportar análises temporais da DRE
-# - Habilitar inteligência de tempo no Power BI
-#
-# 🔗 Rastreabilidade:
-# - Documento técnico:
-#   ../docs/04_desenvolvimento.md
-#   ../docs/05_dicionario.md
-#
-# - Artigo:
-#   ../docs/10_artigo_tecnico.md
-#   4.6 Transformações – dCalendario
-#   4.6.1 Etapas e justificativas
-#   5.3 Tabela dCalendario
-#   5.3.1 Descrição da Tabela
-#   5.3.2 Estrutura da Tabela
-#
-# Estrutura:
-# dCalendario → ftResultado
-# =========================================================
-```
-
-# 🔹 Dimensão Calendário
-
-## 🎯 Objetivo
-
-Criar dimensão temporal para suportar análises YoY, AH e AV, garantindo continuidade das datas e suporte às funções de inteligência de tempo utilizadas no Power BI.
-
----
-
-## ⚙️ Implementação
-
-```powerquery
+// =========================================================
+// 🔹 DIMENSÃO CALENDÁRIO
+// =========================================================
 
 // =========================================================
-// DCALENDARIO.pq
+// D_CALENDARIO.pq
 // Projeto: DRE Automatizada em Power BI
 //
 // Objetivo:
@@ -89,7 +27,6 @@ Criar dimensão temporal para suportar análises YoY, AH e AV, garantindo contin
 // Estrutura:
 // dCalendario → ftResultado
 // =========================================================
-
 
 let
 
