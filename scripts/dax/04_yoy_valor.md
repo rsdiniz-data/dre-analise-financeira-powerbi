@@ -1,6 +1,6 @@
 # 🔹 YoY (Valor)
 
-**Referência:** docs/07_analises.md | Seção 7.3
+**Referência:** docs/07_metricas.md
 
 ```dax
 R$ | Receita Bruta YoY =
