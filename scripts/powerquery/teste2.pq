@@ -1,4 +1,8 @@
 # =========================================================
+# 🔹 DIMENSÃO CALENDÁRIO
+# =========================================================
+
+# =========================================================
 # DCALENDARIO.pq
 # Projeto: DRE Automatizada em Power BI
 #
@@ -23,6 +27,32 @@
 # Estrutura:
 # dCalendario → ftResultado
 # =========================================================
+
+// =========================================================
+// DCALENDARIO.pq
+// Projeto: DRE Automatizada em Power BI
+//
+// Objetivo:
+// - Criar dimensão calendário dinâmica
+// - Suportar análises temporais da DRE
+// - Habilitar inteligência de tempo no Power BI
+//
+// 🔗 Rastreabilidade:
+// - Documento técnico:
+//   ../docs/04_desenvolvimento.md
+//   ../docs/05_dicionario.md
+//
+// - Artigo:
+//   ../docs/10_artigo_tecnico.md
+//   4.6 Transformações – dCalendario
+//   4.6.1 Etapas e justificativas
+//   5.3 Tabela dCalendario
+//   5.3.1 Descrição da Tabela
+//   5.3.2 Estrutura da Tabela
+//
+// Estrutura:
+// dCalendario → ftResultado
+// =========================================================
 
 let
 
