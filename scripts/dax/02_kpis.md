@@ -1,6 +1,7 @@
 # 🔹 KPIs Principais
 
-**Referência:** docs/06_mapeamento_kpis.md
+**Referência:** docs/06_mapeamento_kpis.md    
+**Artigo Técnico:** docs/10_artigo_tecnico.md | 7. Métricas e Indicadores (DAX) 
 
 ```dax
 R$ | Receita Bruta =
