@@ -3,7 +3,7 @@
 // =========================================================
 
 // =========================================================
-// DCALENDARIO.pq
+// D_CALENDARIO.pq
 // Projeto: DRE Automatizada em Power BI
 //
 // Objetivo:
