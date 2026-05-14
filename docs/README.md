@@ -13,7 +13,7 @@ Este diretório contém a documentação técnica completa da solução, organiz
 - [07. Métricas e Indicadores (DAX)](07_metricas.md)
 - [08. Visualizações Analíticas](08_visualizacoes.md)
 - [09. Entrega de Valor](09_entrega_valor.md)
-- [10. artigo_tecnico](10_artigo_tecnico.md)
+- [10. Artigo Técnico](10_artigo_tecnico.md)
 
 A leitura segue uma ordem lógica, facilitando o entendimento completo da solução — desde o problema de negócio até a entrega analítica.
 
