@@ -1,5 +1,5 @@
-# =========================================================
-# DCALENDARIO.pq
+=========================================================
+DCALENDARIO.pq
 # Projeto: DRE Automatizada em Power BI
 #
 # Objetivo:
