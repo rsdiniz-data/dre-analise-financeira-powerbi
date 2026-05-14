@@ -1,6 +1,6 @@
-=========================================================
+=========================================================    
 DCALENDARIO.pq
-# Projeto: DRE Automatizada em Power BI
+Projeto: DRE Automatizada em Power BI
 #
 # Objetivo:
 # - Criar dimensão calendário dinâmica
