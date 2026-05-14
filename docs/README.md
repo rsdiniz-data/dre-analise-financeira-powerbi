@@ -9,7 +9,7 @@ Este diretório contém a documentação técnica completa da solução, organiz
 - [03. Arquitetura da Solução](03_arquitetura.md)
 - [04. Desenvolvimento](04_desenvolvimento.md)
 - [05. Dicionário de Dados](05_dicionario.md)
-- [06. Indicadores (KPIs)](06_kpis.md)
+- [06. Indicadores (KPIs)](06_mapeamento_kpis.md)
 - [07. Métricas e Indicadores (DAX)](07_metricas.md)
 - [08. Visualizações Analíticas](08_visualizacoes.md)
 - [09. Entrega de Valor](09_entrega_valor.md)
