@@ -36,5 +36,5 @@ Cada script contém referências às seções da documentação, permitindo vali
 
 - Comece pelo **Contexto de Negócio** para entender o problema  
 - Avance para **Desenvolvimento** e **Dicionário de Dados** para compreender a construção dos dados  
-- Explore **KPIs** e **Análises** para ver a aplicação prática  
+- Explore **Mapeamento de KPIs** e **Métricas** para ver a aplicação prática  
 - Consulte os **Scripts** para validação técnica da solução
